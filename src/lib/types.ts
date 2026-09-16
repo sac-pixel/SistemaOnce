@@ -1,8 +1,4 @@
-export type CasoStatus =
-  | 'novo'
-  | 'em_analise'
-  | 'aguardando_cliente'
-  | 'resolvido'
+export type CasoStatus = 'novo' | 'em_analise' | 'resolvido'
 
 export type CasoCategoria =
   | 'defeito'
@@ -44,17 +40,11 @@ export interface Foto {
   created_at: string
 }
 
-export const STATUS_ORDER: CasoStatus[] = [
-  'novo',
-  'em_analise',
-  'aguardando_cliente',
-  'resolvido',
-]
+export const STATUS_ORDER: CasoStatus[] = ['novo', 'em_analise', 'resolvido']
 
 export const STATUS_LABELS: Record<CasoStatus, string> = {
   novo: 'Novo',
   em_analise: 'Em Análise',
-  aguardando_cliente: 'Aguardando Cliente',
   resolvido: 'Resolvido',
 }
 
