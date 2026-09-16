@@ -37,7 +37,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-cream px-4">
       <div className="w-full max-w-sm rounded-2xl border border-cream-border bg-white p-8 shadow-[0_8px_30px_-12px_rgba(43,38,32,0.15)] sm:p-10">
         <h1 className="font-serif text-3xl font-semibold tracking-tight text-charcoal">
-          Casos ORNE
+          Casos KLUZZI
         </h1>
         <p className="mt-1.5 text-sm text-charcoal-soft">
           Entre com sua conta da equipe SAC.

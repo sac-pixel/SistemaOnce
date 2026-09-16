@@ -71,7 +71,7 @@ export function KanbanBoard() {
     <div className="flex h-full flex-col">
       <div className="flex items-center justify-between gap-3 px-4 py-5 sm:px-6">
         <h1 className="font-serif text-2xl font-semibold tracking-tight text-charcoal sm:text-3xl">
-          Casos ORNE
+          Casos KLUZZI
         </h1>
         <button
           onClick={() => setModalCaso('new')}

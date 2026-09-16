@@ -14,8 +14,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Casos ORNE",
-  description: "Painel de atendimento SAC da ORNE",
+  title: "Casos KLUZZI",
+  description: "Painel de atendimento SAC da KLUZZI",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
